@@ -12,7 +12,10 @@ Youtubeのチャンネルから動画をダウンロードするプログラム�
 
 
 ## Description
-
+以下のコマンドでプログラム(youtubeGetMovie.py)を実行して、動画をダウンロードします。
+```bash
+sudo python3 youtubeGetMovie.py
+```
 
 ## Setting
 以下のコマンドでYouTube APIを使えるようにします。
@@ -24,6 +27,8 @@ sudo pip3 install google-api-python-client
 sudo pip3 install pytube
 ```
 
+ダウンロードした動画は、'./downloadMovie'に保存されるのでディレクトリを作成してください。
+
 ## プログラムの編集箇所
 ### 10行目
 Youtube Data APIの登録に関しては[参考サイト2](https://qiita.com/g-k/items/7c98efe21257afac70e9)を参考にしてください。
@@ -32,3 +37,5 @@ Youtube Data APIの登録に関しては[参考サイト2](https://qiita.com/g-k
 ChannelIDはダウンロードしたいチャンネルのものを入力してください。  
 ブラウザでチャンネルのページまで飛んで、URLにChannelIDが載っています。
 ![URL](https://github.com/Kohta-Sugimoto/YoutubeDownload/blob/main/youtubeURL.PNG)
+### 12行目
+ダウンロードする動画の長さを1時間単位で指定します。
