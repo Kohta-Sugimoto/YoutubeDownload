@@ -28,6 +28,9 @@ sudo pip3 install pytube
 ```
 
 ダウンロードした動画は、'./downloadMovie'に保存されるのでディレクトリを作成してください。
+```bash
+mkdir downloadMovie
+```
 
 ## プログラムの編集箇所
 ### 10行目
