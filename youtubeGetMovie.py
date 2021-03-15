@@ -10,8 +10,8 @@ from pytube import YouTube
 API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'   #取得したAPIキーを入力(個人で違う)
 CHANNEL_ID = 'xxxxxxxxxxxxxxxxxxxxxxxx'              #ダウンロードしたいチャンネルのIDを入力
 DURATION_CRITERIA_HOUR = 2     #ダウンロードする動画の長さを指定　1の場合１時間未満の動画をダウンロード
-YEAR_Ceiling = 2100            #ダウンロードする動画の投稿日時を指定
 DOWNDOAD_Tag = 22              #タグを指定 22か18を指定(動画によって違うので注意)
+YEAR_Ceiling = 2100            #ダウンロードする動画の投稿日時を指定
 MONTH_Ceiling = 12
 YEAR_Floor = 2020
 MONTH_Floor = 1
