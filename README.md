@@ -40,7 +40,7 @@ Youtube Data APIの登録に関しては[参考サイト2](https://qiita.com/g-k
 ### 11行目
 ChannelIDはダウンロードしたいチャンネルのものを入力してください。  
 ブラウザでチャンネルのページまで飛んで、URLにChannelIDが載っています。
-![URL](https://github.com/Kohta-Sugimoto/YoutubeDownload/blob/main/youtubeURL.PNG)
+![URL](https://github.com/Kohta-Sugimoto/github-newreppsitory/blob/main/youtubeURL.PNG)
 ### 12行目
 ダウンロードする動画の長さを1時間単位で指定します。
 ### 13行目
